@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+   int a,b,c;
+   
+   int i;    // calcular minino y guardarlo en la variable i
+ 
+   cin>>a>>b>>c;
+   
+   if((a>c) and (b>c))
+   i=c;
+   
+   else if ((b>a) and (c>a))
+   i=a;
+   
+   else if((c>b) and (a>b))
+   i=b;
+   cout<<i<<endl;
+   
+}
